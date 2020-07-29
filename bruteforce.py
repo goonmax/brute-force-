@@ -10,7 +10,7 @@ smtpserver.starttls()
 
 
 
-user = raw_input("Enter the taraget's email address: ")
+user = raw_input("Enter the target's email address: ")
 passwfile = raw_input("Enter the wordlist file name:  ")
 passwfile = open(passwfile, "r")
 
